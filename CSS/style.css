@@ -1,0 +1,149 @@
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+.content {
+  margin-bottom: 40px;
+}
+
+.unit {
+  font-weight: bold;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type='number'] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  color: #050505;
+  cursor: pointer;
+}
+
+.result-container {
+  margin-bottom: 20px;
+}
+
+.result {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.calculation-container {
+  margin-bottom: 20px;
+}
+
+.calculation {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.link-container {
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+  font-size: 12px;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  .header {
+    margin-bottom: 10px;
+  }
+
+  .divider {
+    margin: 10px 0;
+  }
+
+  .content {
+    margin-bottom: 20px;
+  }
+
+  .input-container {
+    margin-bottom: 10px;
+  }
+
+  .button-container {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .result-container {
+    margin-bottom: 10px;
+  }
+
+  .calculation-container {
+    margin-bottom: 10px;
+  }
+
+  .footer {
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: 10px;
+  }
+}
